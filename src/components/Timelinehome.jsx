@@ -1,8 +1,8 @@
 import React from 'react';
 import { Box, Divider } from '@mui/material';
 import Timeline from '@mui/lab/Timeline';
-import BUTTON from './Button';
-import TimelineEvent from './Timeline';
+import BUTTON from '../components/Button';
+import TimelineEvent from '../components/Timeline';
 
 const events = [
     {
