@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-color: #306fa0 #ffffff;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+    color: #306fa0;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+}
+
+.boldmarker::marker {
+    font-weight: bold;
+}
+
+
+.css-hyum1k-MuiToolbar-root {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    min-height: auto !important;
+}
+
+
+@media (min-width: 600px) {
+    .css-hyum1k-MuiToolbar-root {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}
